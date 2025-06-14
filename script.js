@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function(){
 		let massage = [];
 		const isValid = true;
 
-		if (username.value.length < 3){
+		if (username.length < 3){
 			isValid = false;
 			message.push('The password length must be greater than 3.');
 		}
