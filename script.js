@@ -1,4 +1,4 @@
-document.addEventListner("DOMContentLoaded", function(){
+document.addEventListener("DOMContentLoaded", function(){
 	
 	const form = document.getElementById('registration-form');
 	const username = document.getElementById('username');
@@ -6,7 +6,7 @@ document.addEventListner("DOMContentLoaded", function(){
 	const password = document.getElementById('password');
 	const feedbackDiv = document.getElementById('form-feedback');
 
-	form.addEventListner('submit', event => {
+	form.addEventListener('submit', event => {
 		event.preventDefault();
 
 		validInputs();
